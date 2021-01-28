@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>GitHubFinder</title>
+    <style>
+        .icons{
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+            
+            text-align: center;
+            font-size: 3rem;
+            background-color: black;
+            color:white;   
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-primary mb-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">GitHubFinder</a>
+        </div>
+    </nav>
+    <div class="container searchContainer">
+        <div class="search card card-body ">
+            <h1>Search GitHub Users</h1>
+            <p class="lead">Enter a Username to fetch Github profile and their Repositories</p>
+            <input type="text" id="searchUser" class="form-control" placeholder="Enter Github username..">
+        </div>
+        <br>
+        <div id="profile"></div>
+    </div>
+    <div class="icons">
+        <a href="https://www.instagram.com/arunprasad.__/?hl=en" target="_blank" ><i class="fa fa-instagram" ></i></a>
+        <a href="https://github.com/abxapm0219" ><i class="fa fa-github" target="_blank" ></i></a>
+        <a href="https://wa.me/+919962888795" target="_blank"><i class="fa fa-whatsapp" ></i></a>
+    </div> 
+
+    <footer style="background-color: black;
+    color: white; font-family: Copperplate Gothic Light;" class=" p-3 text-center " >GitHubFinder &copy; <br>Created by Arun Prasad A<br>Knowledge is Power!</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="github.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
